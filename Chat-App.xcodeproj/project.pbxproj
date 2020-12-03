@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -93,6 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		501C16A52578C93B00E5EF88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		50752D952578BDBF00C503B2 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +125,7 @@
 		50752DA02578BDC000C503B2 /* Chat-App */ = {
 			isa = PBXGroup;
 			children = (
+				501C16A52578C93B00E5EF88 /* Models */,
 				50752DA12578BDC100C503B2 /* AppDelegate.swift */,
 				50752DA32578BDC300C503B2 /* SceneDelegate.swift */,
 				50752DA52578BDC300C503B2 /* ViewController.swift */,
@@ -168,7 +176,6 @@
 				53E2350505AB7ED608A7FF0B /* Pods-Chat-AppTests.debug.xcconfig */,
 				A3D4B9B1DA91B1981C727F63 /* Pods-Chat-AppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
