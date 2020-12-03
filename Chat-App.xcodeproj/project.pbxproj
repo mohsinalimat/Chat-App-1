@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05932297760B1B8BF8508FB6 /* Pods_Chat_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 066AC7F2C854CB82F89D63D5 /* Pods_Chat_App.framework */; };
 		49BFB420D82C48A529F32A55 /* Pods_Chat_App_Chat_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B85EE555DE864F9D75D987 /* Pods_Chat_App_Chat_AppUITests.framework */; };
+		501C16A72578C99500E5EF88 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501C16A62578C99500E5EF88 /* User.swift */; };
 		50752DA22578BDC200C503B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50752DA12578BDC100C503B2 /* AppDelegate.swift */; };
 		50752DA42578BDC300C503B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50752DA32578BDC300C503B2 /* SceneDelegate.swift */; };
 		50752DA62578BDC300C503B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50752DA52578BDC300C503B2 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		303DFAF119285419DAEAF63E /* Pods_Chat_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3815A97912C20E1476DAD259 /* Pods-Chat-App-Chat-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat-App-Chat-AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Chat-App-Chat-AppUITests/Pods-Chat-App-Chat-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		472A56D50AEF188564031F46 /* Pods-Chat-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat-App.debug.xcconfig"; path = "Target Support Files/Pods-Chat-App/Pods-Chat-App.debug.xcconfig"; sourceTree = "<group>"; };
+		501C16A62578C99500E5EF88 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		50752D9E2578BDC000C503B2 /* Chat-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50752DA12578BDC100C503B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50752DA32578BDC300C503B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		501C16A52578C93B00E5EF88 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				501C16A62578C99500E5EF88 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				50752DA62578BDC300C503B2 /* ViewController.swift in Sources */,
 				50752DAC2578BDC400C503B2 /* Chat_App.xcdatamodeld in Sources */,
 				50752DA22578BDC200C503B2 /* AppDelegate.swift in Sources */,
+				501C16A72578C99500E5EF88 /* User.swift in Sources */,
 				50752DA42578BDC300C503B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
